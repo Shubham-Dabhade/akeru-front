@@ -1,0 +1,25 @@
+.room-container{
+    height: 100%;
+    
+}
+.room-bottom-container{
+    height: 85vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    overflow: hidden;
+    margin-top: 80px;
+    height: clac(100vh - 82px);
+    width: 100%;
+    position: relative;
+}
+
+
+@media screen and (min-width:1400px) {
+    .room-bottom-container{
+        height: 90vh;
+    }
+    
+}

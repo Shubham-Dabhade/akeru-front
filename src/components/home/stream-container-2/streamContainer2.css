@@ -1,0 +1,74 @@
+.stream-content1{
+    width: 235px;
+    height: 235px;
+    margin: 10px 10px;
+}
+.stream-image-container1{
+    height: 160px;
+    width: 100%;
+    margin-bottom: 6px;
+    position: relative;
+}
+.stream-live-sign1{
+    background-color: #dc2cad;
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2px;
+    border-radius: 7px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 12px;
+}
+
+.stream-image1{
+    height: 160px;
+    width: 100%;
+    border-radius: 10px;
+}
+.stream-thumbnail1{
+    margin: 10px 0px 0px 0px;
+}
+.streamer-user1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.user-thumb-image-contain1{
+    display: flex;
+    align-self: center;
+    margin-right: 9px;
+}
+.user-thumb-image1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+.streamer-user-tag1{
+    font-size: 13px;
+    color: rgb(149, 149, 149);
+}
+
+
+@media screen and (max-width:581px) {
+    .stream-content1 {
+        width: 100%;
+        height: 275px;
+        margin: 10px 10px;
+    }
+    .stream-image-container1 {
+        height: 200px;
+        width: 100%;
+        margin-bottom: 6px;
+        position: relative;
+    }
+    .stream-image1 {
+        height: 100%;
+        width: 100%;
+        border-radius: 10px;
+    }    
+}
